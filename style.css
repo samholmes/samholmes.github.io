@@ -1,0 +1,55 @@
+@import "https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600;700&display=swap";
+
+body {
+	background: #111;
+	color: #eee;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Karla, sans-serif;
+	margin: 2em;
+	text-align: center;
+}
+
+.container {
+	max-width: 480px;
+	margin: 0px auto;
+}
+
+.photo {
+	border-radius: 100%;
+	width: 50%;
+	margin: auto;
+	display: block;
+	border: .5em solid white;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 1em 0;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff
+}
+
+.links {
+	margin: 2em 0;
+	text-align: center;
+}
+
+.links a.link {
+	display: block;
+	margin: 1rem 0;
+	padding: 1rem;
+	background: #ddd;
+	color: black;
+}
+
+.links a.link:hover {
+	background: #fff;
+}
