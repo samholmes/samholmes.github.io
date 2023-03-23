@@ -4,6 +4,14 @@ import { e, jarvis } from 'https://unpkg.com/ironjs'
 
 export const links = [
 	{
+		title: 'Follow me on Twitter',
+		url: 'https://twitter.com/sam_holmes'
+	},
+	{
+		title: 'Push or Pull with me on GitHub',
+		url: 'https://github.com/samholmes'
+	},
+	{
 		title: 'Download Edge', 
 		url: 'https://edge.app',
 	},
@@ -20,12 +28,16 @@ export const links = [
 		url: 'https://m.do.co/c/6f680d1e7f05',
 	},
 	{
-		title: 'IronJS', 
+		title: 'Check out my framwork called IronJS', 
 		url: 'https://ironjs.org',
 	},
 ]
 
-const bio = `I am me. Currently building freedom tech at Edge.`
+const bio = [
+	`I am me. Currently building freedom tech at `, 
+	e.a({ href: 'https://edge.app' }, 'Edge'),
+	`.`
+]
 
 // View:
 
