@@ -29,15 +29,16 @@ h1 {
 }
 
 a {
-	color: #fff;
+	background-color: #fff;
+	box-shadow: #ffffffaa 0px 0px 6px;
+	color: #000;
 	text-decoration: none;
-	text-shadow: #ffffffcc 0px 0px 6px;
 	transition: all linear 300ms;
+	padding: 1px 3px;
 }
 
 a:hover {
-	color: #fff;
-	text-shadow: #ffffffff 0px 0px 24px;
+	box-shadow: #fff 0px 0px 12px;
 }
 
 .links {
