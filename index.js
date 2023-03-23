@@ -25,6 +25,8 @@ export const links = [
 	},
 ]
 
+const bio = `I am me. Currently building freedom tech at Edge.`
+
 // View:
 
 const link = (title, href) => e.a.link({
@@ -33,11 +35,8 @@ const link = (title, href) => e.a.link({
 }, title)
 
 export const page = e.div.container(
-	e.img.photo({
-		src: 'photo.jpg',
-		alt: 'My face'
-	}),
 	e.h1("Sam Holmes"),
+	e.p(bio),	
 	e.div.links(
 		links.map(({ title, url }) => link(title, url))
 	)
