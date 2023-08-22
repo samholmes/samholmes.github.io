@@ -4,11 +4,11 @@ import { e, jarvis } from 'https://unpkg.com/ironjs'
 
 export const links = [
 	{
-		title: 'Follow me on Twitter',
-		url: 'https://twitter.com/sam_holmes'
+		title: 'Follow me on X',
+		url: 'https://x.com/sam_holmes'
 	},
 	{
-		title: 'Push or Pull with me on GitHub',
+		title: 'Checkout my GitHub',
 		url: 'https://github.com/samholmes'
 	},
 	{
@@ -22,15 +22,7 @@ export const links = [
 	{
 		title: 'Download Strike, Get $5 Free', 
 		url: 'https://invite.strike.me/VR4K6D',
-	},
-	{
-		title: 'Get $100 at Digital Ocean', 
-		url: 'https://m.do.co/c/6f680d1e7f05',
-	},
-	{
-		title: 'Check out my framwork called IronJS', 
-		url: 'https://ironjs.org',
-	},
+	}
 ]
 
 const bio = [
