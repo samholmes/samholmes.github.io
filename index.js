@@ -12,16 +12,8 @@ export const links = [
 		url: 'https://github.com/samholmes'
 	},
 	{
-		title: 'Download Edge', 
-		url: 'https://edge.app',
-	},
-	{
-		title: 'Strike Me', 
-		url: 'https://strike.me/samholmes',
-	},
-	{
-		title: 'Download Strike, Get $5 Free', 
-		url: 'https://invite.strike.me/VR4K6D',
+		title: 'Connect on LinkedIn',
+		url: 'https://www.linkedin.com/in/sammyholmes/'
 	}
 ]
 
