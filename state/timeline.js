@@ -55,8 +55,8 @@ export const timeline = [
 	{
 		date: '2004',
 		endDate: '',
-		title: 'The Foundation',
-		description: 'Caught the coding bug at age 13, building video games with reckless enthusiasm. Discovered the web and fell in love with PHP and JavaScript: the spark that started it all.',
+		title: 'Start Game',
+		description: 'Caught the coding bug at age 13, building video games with reckless enthusiasm. Discovered web development through PHP and JavaScript: the spark that started it all.',
 		active: false
 	}
 ]
