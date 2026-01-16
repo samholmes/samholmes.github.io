@@ -80,8 +80,17 @@ a.social svg {
 }
 
 .timeline_item {
+	display: block;
 	position: relative;
 	padding-bottom: 3rem;
+}
+
+a.timeline_item {
+	cursor: pointer;
+}
+
+a.timeline_item:hover .title {
+	color: #aaa;
 }
 
 .timeline_item:last-child {
@@ -105,6 +114,17 @@ a.social svg {
 	box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
+.timeline_item.linkable::before {
+	box-shadow: 0px 0px 0px 2px #000, 0px 0px 0px 3px #666;
+}
+.timeline_item.linkable.active::before {
+	box-shadow: 0px 0px 0px 2px #000, 0px 0px 0px 3px #fff, 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.timeline_item.linkable.active::after {
+	border-color: #fff;
+}
+
 .date_range {
 	display: flex;
 	justify-content: space-between;
@@ -123,7 +143,9 @@ a.social svg {
 	font-weight: 500;
 	color: #fff;
 	margin-bottom: 0.5rem;
+	transition: color 0.2s ease;
 }
+
 
 .content .description {
 	font-size: 0.875rem;
