@@ -8,7 +8,7 @@ export const TimelineItem = ({ date, endDate, title, description, active, url })
 	const content = [
 		e.div.date_range(
 			e.span.date(date),
-			e.span.date_end(endDate)
+			// e.span.date_end(endDate)
 		),
 		e.div.content(
 			e.h3.title(title),
