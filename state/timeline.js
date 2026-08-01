@@ -1,5 +1,13 @@
 export const timeline = [
 	{
+		date: 'Aug 2026',
+		endDate: 'Present',
+		title: 'Product Engineering at Cadre AI',
+		description: 'Joined Cadre AI as Head of Product Engineering, building AI-powered systems that turn strategy into measurable business impact.',
+		active: true,
+		url: 'https://www.cadreai.com'
+	},
+	{
 		date: 'Dec 2023',
 		endDate: 'Present',
 		title: 'Building Community',
